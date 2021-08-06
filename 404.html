@@ -2,21 +2,20 @@
 <html lang="en">                                                                
     <head>                                                                      
         <meta charset="utf-8">
-        <meta http-equiv="refresh" content="0;url=https://tiandev.net/" />      
         <link rel="canonical" href="https://tiandev.net/" />  
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>                                                                                                                                                                  
     <body>                                                                      
         <h1>                                                                    
-            The page been moved to <a href="{{THE_NEW_URL}}">{{THE_NEW_URL}}</a>
+            The page been moved to <a href="https://tiandev.net/">https://tiandev.net/</a>
         </h1>
         <script>
           let urlCurrent = window.location.href;
           let urlNew = urlCurrent.replace("anhkevin.github.io", "tiandev.net");
+          $('a[href).attr('href', urlNew);
           $('link[rel="canonical"]').attr('href', urlNew);
- //         $('meta[http-equiv="refresh"]').attr('content', 'NEW_HREF_GOES_HERE');
-//          window.location.href = urlNew;
+          $('head').append('<meta http-equiv="refresh" content="0;url='+urlNew+'" />');
       </script>
     </body>                                                                    
 </html>
