@@ -4,6 +4,7 @@ date: 2021-07-07 21:30:00 +0700
 categories: [Orther]
 tags: [Amazon]
 math: true
+redirect_to: https://anhkevin.github.io/cai-dat-ssl-tren-aws-lightsail-su-dung-bncert-bitnami/
 ---
 
 Để thực hiện các bước thiết lập bên dưới yêu cầu đã cài đặt web trong Amazon Lightsail thành công
