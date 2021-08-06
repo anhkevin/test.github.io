@@ -20,6 +20,10 @@ twitter:
 
 facebook:
   username: anhkevin001
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from 
 
 social:
   name: Ánh Kevin                  # it will shows as the copyright owner in Footer
