@@ -1,21 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>https://tiandev.net/</title>
-    <link rel="canonical" href="https://tiandev.net/"/>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-<body>
-    Redirect
-    <script>
-        let urlCurrent = window.location.href;
-        let urlNew = urlCurrent.replace("anhkevin.github.io", "tiandev.net");
-        $('link[rel="canonical"]').attr('href', 'NEW_HREF_GOES_HERE');
-        window.location.href = urlNew;
-    </script>
-</body>
+<!DOCTYPE HTML>                                                                
+<html lang="en">                                                                
+    <head>                                                                      
+        <meta charset="utf-8">
+        <link rel="canonical" href="https://tiandev.net/" />  
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>                                                                                                                                                                  
+    <body>                                                                      
+        <h1>                                                                    
+            The page been moved to <a href="https://tiandev.net/">https://tiandev.net/</a>
+        </h1>
+        <script>
+          let urlCurrent = window.location.href;
+          let urlNew = urlCurrent.replace("anhkevin.github.io", "tiandev.net");
+          $('a[href]').attr('href', urlNew);
+          $('link[rel="canonical"]').attr('href', urlNew);
+          setTimeout(function(){
+              $('head').append('<meta http-equiv="refresh" content="0;url='+urlNew+'" />');
+          }, 3000);
+      </script>
+    </body>                                                                    
 </html>
