@@ -1,0 +1,11 @@
+#  The date format
+#  v2.1
+#  github
+#  © 2020 Coding
+#  MIT Licensed
+
+
+tooltip: "%a, %b %e, %Y, %l:%M %p %z"
+post:
+  long: "%b %e, %Y"
+  short: "%b %e"

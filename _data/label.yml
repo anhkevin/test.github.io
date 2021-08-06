@@ -1,0 +1,19 @@
+# The label text of site.
+#  v2.0
+#  github
+# © 2017-2019 Coding
+# MIT Licensed
+
+
+panel:
+  lastmod: "Recent Update"
+  trending_tags: "Trending Tags"
+  toc: "Contents"
+
+post:
+  relate_posts: "Further Reading"
+  button:
+    next: Newer
+    previous: Older
+
+search_hint: "Search"   # text show on search bar
