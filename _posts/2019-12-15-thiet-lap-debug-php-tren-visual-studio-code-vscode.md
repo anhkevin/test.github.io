@@ -10,7 +10,6 @@ post_views_count:
   - "434"
 categories: [Orther]
 tags: [VSCode]
-redirect_to: https://tiandev.net/thiet-lap-debug-php-tren-visual-studio-code-vscode/
 ---
 **Xdebug** là thư viện được viết ra để hỗ trợ việc tìm ra lỗi trong ứng dụng viết bằng PHP một cách hiệu quả hơn. Các công cụ hỗ trợ tìm ra lỗi của ứng dụng như Xdebug được gọi là debugger, đặc biệt **Xdebug** cho phép kết nối đến các IDE (như Visual Studio Code, Sublime Text, PHPStorm &#8230;) để gỡ rối mã PHP, lúc này từ IDE có thể thực hiện việc đặt các breakpoint (điểm dừng mã để trích xuất, xem các thông tin &#8230;) cũng như các thao tác Debug như : Step Into, Step Over, Restart &#8230;
 
