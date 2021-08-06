@@ -15,7 +15,9 @@
           let urlNew = urlCurrent.replace("anhkevin.github.io", "tiandev.net");
           $('a[href).attr('href', urlNew);
           $('link[rel="canonical"]').attr('href', urlNew);
-          $('head').append('<meta http-equiv="refresh" content="0;url='+urlNew+'" />');
+          setTimeout(function(){
+              $('head').append('<meta http-equiv="refresh" content="0;url='+urlNew+'" />');
+          }, 3000);
       </script>
     </body>                                                                    
 </html>
