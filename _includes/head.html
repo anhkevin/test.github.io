@@ -9,8 +9,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>{{ site.url }}{{ page.url }}
+  <meta http-equiv="refresh" content="0; url={{ site.url }}{{ page.url }}">
+  <title>
   {%- unless page.layout == "home" -%}
     {{ page.title | append: " | "}}
   {%- endunless -%}
