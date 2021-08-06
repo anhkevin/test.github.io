@@ -1,23 +1,23 @@
-<!DOCTYPE HTML>                                                                
-<html lang="en">                                                                
-    <head>                                                                      
-        <meta charset="utf-8">
-        <link rel="canonical" href="https://tiandev.net/" />  
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>                                                                                                                                                                  
-    <body>                                                                      
-        <h1>                                                                    
-            The page been moved to <a href="https://tiandev.net/">https://tiandev.net/</a>
-        </h1>
-        <script>
-          let urlCurrent = window.location.href;
-          let urlNew = urlCurrent.replace("anhkevin.github.io", "tiandev.net");
-          $('a[href]').attr('href', urlNew);
-          $('link[rel="canonical"]').attr('href', urlNew);
-          setTimeout(function(){
-              $('head').append('<meta http-equiv="refresh" content="0;url='+urlNew+'" />');
-          }, 3000);
-      </script>
-    </body>                                                                    
-</html>
+---
+# The 404 page
+
+# MIT License
+layout: page
+title: "404: Page not found"
+permalink: /404.html
+
+redirect_from:  # part of site.sitemap_exclude
+  - /norobots/
+  - /assets/
+  - /tabs/
+  - /categories/
+  - /tags/
+  - /posts/
+
+dynamic_title: true
+---
+
+<div class="lead">
+  <p>Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. </p>
+  <p><a href="{{ site.baseurl }}/">Head back Home</a> to try finding it again, or search for it on the <a href="{{ site.baseurl }}/tabs/archives">Archives page</a>.</p>
+</div>
